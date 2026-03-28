@@ -15,7 +15,7 @@ body{background:linear-gradient(180deg,#0B0B0C 0%,#111111 100%);color:var(--t1);
 #nprog{position:fixed;top:0;left:0;right:0;height:2px;background:var(--green);z-index:9999;transform:scaleX(0);transform-origin:left;transition:transform .3s ease,opacity .4s ease .1s;opacity:0;}
 #nprog.a{transform:scaleX(.7);opacity:1;}#nprog.d{transform:scaleX(1);opacity:0;}
 #auth{min-height:100vh;display:grid;grid-template-columns:1fr 440px;}
-.ab{background:var(--bg2);border-right:1px solid var(--border);display:flex;flex-direction:column;justify-content:space-between;padding:48px 56px;position:relative;overflow:hidden;}
+.ab{background:linear-gradient(rgba(2, 88, 31, 0.75), rgba(0,0,0,0.9)),url('./assets/bg.jpg');background-size:cover;background-position:center;background-repeat:no-repeat;border-right:1px solid var(--border);display:flex;flex-direction:column;justify-content:space-between;padding:48px 56px;position:relative;overflow:hidden;}
 .ab::after{content:'';position:absolute;bottom:-120px;right:-120px;width:400px;height:400px;background:radial-gradient(circle,rgba(34,197,94,.06) 0%,transparent 70%);pointer-events:none;}
 .ab-logo{display:flex;align-items:center;gap:10px;}
 .ab-mark{width:32px;height:32px;border-radius:8px;background:var(--green);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:#000;}
